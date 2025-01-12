@@ -25,6 +25,7 @@
     "typescript": "^5.7.2"
   },
   "dependencies": {
+    "@limitbreak/creator-token-contracts": "^1.1.2",
     "dotenv": "^16.4.7"
   }
 }
