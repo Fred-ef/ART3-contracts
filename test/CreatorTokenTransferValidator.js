@@ -2,7 +2,7 @@ const { loadFixture } = require('@nomicfoundation/hardhat-network-helpers');
 const { expect } = require('chai');
 const { ethers } = require('hardhat');
 
-describe.only('CreatorTokenTransferValidator', function () {
+describe('CreatorTokenTransferValidator', function () {
     async function setup() {
         const [owner] = await ethers.getSigners();
 
