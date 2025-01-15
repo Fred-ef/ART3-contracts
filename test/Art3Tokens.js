@@ -2,7 +2,7 @@ const { loadFixture } = require('@nomicfoundation/hardhat-network-helpers');
 const { expect } = require('chai');
 const { ethers } = require('hardhat');
 
-describe.only('Art3Tokens', function () {
+describe('Art3Tokens', function () {
     async function setup() {
         const [owner] = await ethers.getSigners();
 
